@@ -1,3 +1,14 @@
+x11proto-video (2.3.2-1) unstable; urgency=low
+
+  * New upstream release
+    + correct sizeof(xvEncodingInfo) (closes: #657215)
+  * Bump debhelper compat level to 7, use dh_prep.
+  * Don't require fakeroot for d/rules clean.
+  * Bump standards-version to 3.9.3 (no changes needed).
+  * Remove Andres and David from Uploaders.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 08 Sep 2013 17:16:24 +0200
+
 x11proto-video (2.3.1-2) unstable; urgency=low
 
   * Mark x11proto-video-dev Multi-Arch: foreign.
